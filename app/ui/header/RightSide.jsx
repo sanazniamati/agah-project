@@ -19,7 +19,7 @@ function RightSide(props) {
           {navButtons.map((item) => (
             <li
               key={item.id}
-              className="h-20 flex items-center font-medium hover:opacity-90"
+              className="h-20 flex items-center font-medium font-font1 hover:opacity-90 text-darkblue opacity-90"
             >
               <Link href={"/"} className="hover:text-darkFont">
                 {item.title}

@@ -7,7 +7,7 @@ import sliderPic from "../../../public/img/sliderPic.webp";
 import sliderPic5 from "../../../public/img/sliderPic5.webp";
 import sliderPic1 from "../../../public/img/sliderPic1.webp";
 
-function Part3(props) {
+function Part3() {
   return (
     <section className=" pt-20">
       <div className=" w-full mx-auto sm:w-[90%] lg:w-5/6">

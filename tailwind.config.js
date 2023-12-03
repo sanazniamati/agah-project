@@ -26,6 +26,7 @@ module.exports = {
       backgroundImage: {
         autoAgah: "url('/img/autoAgahBanner.jpg')",
         about: "url('/img/about.svg')",
+        branch: "url('/img/branch.jpg')",
       },
     },
   },

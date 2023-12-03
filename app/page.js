@@ -1,9 +1,10 @@
 import Link from "next/link";
-import Footer from "./ui/Footer";
+// component
 import Header from "./ui/header/Header";
-import Image from "next/image";
 import Part2 from "./ui/section-two/Part2";
 import Part3 from "./ui/section-three/Part3";
+import Part4 from "./ui/section-four/part4";
+import Footer from "./ui/Footer";
 
 export default function Home() {
   return (
@@ -125,6 +126,7 @@ export default function Home() {
         </section>
         <Part2 />
         <Part3 />
+        <Part4 />
       </main>
       <Footer />
     </>

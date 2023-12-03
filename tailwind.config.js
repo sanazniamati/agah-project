@@ -15,6 +15,9 @@ module.exports = {
       colors: {
         darkblue: "#003064",
       },
+      boxShadow: {
+        btnShadow: "0 2px 6px 0px rgba(31, 27, 45, 1)",
+      },
     },
   },
   plugins: [],

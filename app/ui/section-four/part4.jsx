@@ -5,7 +5,7 @@ import branches from "../../../public/img/branches.webp";
 import cutomers from "../../../public/img/cutomers.webp";
 import employee from "../../../public/img/employee.webp";
 
-function part4(props) {
+function part4() {
   return (
     <section className="pt-10 w-full">
       <div className=" w-full flex items-center bg-branch bg-no-repeat bg-fixed bg-center min-h-[400px] py-10 ">

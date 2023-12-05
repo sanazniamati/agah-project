@@ -9,25 +9,25 @@ function part4() {
   return (
     <section className="pt-10 w-full">
       <div className=" w-full flex items-center bg-branch bg-no-repeat bg-fixed bg-center min-h-[400px] py-10 ">
-        <div className=" w-full h-full mx-auto ">
+        <div className=" w-full sm:w-[90%] lg:w-5/6 h-full mx-auto ">
           <div className=" grid grid-cols-1 text-center font-font1 text-white items-center place-items-center gap-y-12 h-full lg:grid-cols-2 xl:grid-cols-5">
             {contents.map((item) => (
               <div key={item.id} className="text-white text-center">
                 <Image
                   src={item.src}
                   alt=""
-                  width={150}
-                  height={150}
-                  className=" w-auto h-auto"
+                  // width={150}
+                  // height={150}
+                  className=" w-auto h-auto xl:w-[150px] xl:h-[150px]"
                 />
-                <div className="pt-4">
+                <div className="pt-4 font-font1">
                   {item.caption1}
                   <span className=" font-bold text-xl px-1">
                     {item.caption2}
                   </span>
                   {item.caption3}
                 </div>
-                <div>{item.caption4}</div>
+                <div className="font-font1">{item.caption4}</div>
               </div>
             ))}
           </div>

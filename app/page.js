@@ -3,7 +3,7 @@ import Header from "./ui/header/Header";
 import Part2 from "./ui/section-two/Part2";
 import Part3 from "./ui/section-three/Part3";
 import Part4 from "./ui/section-four/part4";
-import Footer from "./ui/Footer";
+import Footer from "./ui/footer/Footer";
 
 export default function Home() {
   return (

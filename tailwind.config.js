@@ -19,6 +19,9 @@ module.exports = {
         darkblue: "#003064",
         darkPurpel: "#5C21B7",
         grayLight: "#F9FBFD",
+        magnolia: "#F5F4F9",
+        prussianblue: "#00234e",
+        darkgray: "#454056e6",
       },
       boxShadow: {
         btnShadow: "0 2px 6px 0px rgba(31, 27, 45, 1)",

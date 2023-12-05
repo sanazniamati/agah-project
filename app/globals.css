@@ -2,13 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-/* @layer base { */
-@font-face {
-  font-family: "font1";
-  src: url("../public/fonts/font1.woff");
-}
+@layer base {
+  @font-face {
+    font-family: "font1";
+    src: url("../public/fonts/font1.woff");
+  }
 
-@font-face {
+  /* @font-face {
   font-family: "font2";
   src: url("../public/fonts/font2.woff");
 }
@@ -16,5 +16,5 @@
 @font-face {
   font-family: "font3";
   src: url("../public/fonts/font3.woff");
+} */
 }
-/* } */

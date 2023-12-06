@@ -1,5 +1,6 @@
 // component
 import Header from "./ui/header/Header";
+import Part1 from "./ui/section-one/part1";
 import Part2 from "./ui/section-two/Part2";
 import Part3 from "./ui/section-three/Part3";
 import Part4 from "./ui/section-four/part4";
@@ -10,6 +11,7 @@ export default function Home() {
     <>
       <Header />
       <main className="mt-20 min-h-screen flex flex-col w-full">
+        <Part1 />
         <Part2 />
         <Part3 />
         <Part4 />

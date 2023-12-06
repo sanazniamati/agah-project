@@ -1,10 +1,25 @@
+"use client";
 import Link from "next/link";
 import Image from "next/image";
 import { GrMenu } from "react-icons/gr";
+import { useState } from "react";
+import Menu from "./Menu";
 
 function RightSide(props) {
+  const [modal, setModal] = useState(false);
+
+  const handleOpenMenu = () => {
+    setModal((modal) => !modal);
+    console.log(" :" + modal);
+  };
   return (
     <div className=" flex items-center lg:gap-8 ">
+      <div className=" mt-4">
+        <button className=" p-2.5" onClick={handleOpenMenu}>
+          <GrMenu className=" h-10 w-10 ml-2 lg:hidden" />
+        </button>
+        {modal ? <Menu /> : null}
+      </div>
       <Link href={"/"}>
         <Image
           src="https://agah.com/images/agah-logo.svg"
@@ -28,27 +43,6 @@ function RightSide(props) {
           ))}
         </ul>
       </nav>
-
-      <div className=" mt-4">
-        <button className=" p-2.5">
-          <GrMenu className=" h-10 w-10 ml-2 lg:hidden" />
-          {/* <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth="1.5"
-              stroke="currentColor"
-              aria-hidden="true"
-              class="h-10 w-10 ml-2"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
-              ></path>
-            </svg> */}
-        </button>
-      </div>
     </div>
   );
 }

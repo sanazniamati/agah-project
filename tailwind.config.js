@@ -14,6 +14,7 @@ module.exports = {
         font1: "font1",
         font2: "font2",
         font3: "font3",
+        iranSans: "font1",
       },
       colors: {
         darkblue: "#003064",

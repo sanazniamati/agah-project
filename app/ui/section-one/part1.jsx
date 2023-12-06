@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-function part1(props) {
+function Part1(props) {
   return (
     <section
       className=" pb-20 flex items-end justify-center relative
@@ -54,7 +54,7 @@ function part1(props) {
                     ></path>
                   </svg>
                 </div>
-                <div className=" text-white  text-base font-font2">
+                <div className=" text-white  text-base font-font1">
                   مدیریت دارایی
                 </div>
               </div>
@@ -80,7 +80,7 @@ function part1(props) {
                     ></path>
                   </svg>
                 </div>
-                <div className=" text-white  text-base font-font2">
+                <div className=" text-white  text-base font-font1">
                   دوره های آموزشی
                 </div>
               </div>
@@ -106,7 +106,7 @@ function part1(props) {
                     ></path>
                   </svg>
                 </div>
-                <div className=" text-white  text-base font-font2">
+                <div className=" text-white  text-base font-font1">
                   آگاه در یک نگاه
                 </div>
               </div>
@@ -118,4 +118,4 @@ function part1(props) {
   );
 }
 
-export default part1;
+export default Part1;

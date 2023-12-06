@@ -13,7 +13,7 @@ function Part3() {
       <div className=" w-full mx-auto sm:w-[90%] lg:w-5/6">
         {/* header */}
         <div className=" w-full flex justify-center mx-auto pb-8 lg:w-1/2 lg:border-t lg:border-gray lg:text-xl">
-          <h2 className=" bg-white -top-4 px-4 font-bold font-font2 relative ">
+          <h2 className=" bg-white -top-4 px-4 font-bold font-font1 relative ">
             بلاگ بآشگاه مشتریان کارگزاری آگاه
           </h2>
         </div>
@@ -26,7 +26,7 @@ function Part3() {
                   <div className=" flex justify-center w-full">
                     <Image src={item.src} alt="" width={350} height={350} />
                   </div>
-                  <figcaption className=" px-10 py-4 font-bold text-center">
+                  <figcaption className=" px-10 py-4 font-bold font-font1 text-center">
                     {item.figcaption}
                   </figcaption>
                 </figure>

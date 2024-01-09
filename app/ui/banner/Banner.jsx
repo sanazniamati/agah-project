@@ -1,26 +1,26 @@
-import Link from "next/link";
+import Link from 'next/link'
 
 function Part1(props) {
   return (
     <section
-      className=" pb-20 flex items-end justify-center relative
-        bg-autoAgah bg-cover bg-top h-[600px] w-full bg-no-repeat overflow-hidden
-         md:h-[800px] lg:items-center lg:justify-end  lg:h-[700px]           
-        //  lg:bg-[center_bottom_1rem]
+      className=" // relative flex h-[600px] w-full
+        items-end justify-center overflow-hidden bg-autoAgah bg-cover bg-top bg-no-repeat
+         pb-20 md:h-[800px] lg:h-[700px]  lg:items-center           
+        lg:justify-end  lg:bg-[center_bottom_1rem]
          "
     >
-      <div className=" flex justify-center items-center w-full md:w-1/2">
+      <div className=" flex w-full items-center justify-center md:w-1/2">
         <h2
-          className=" text-2xl font-black text-darkPurpel text-center pb-2 font-font1
-           lg:text-5xl lg:text-right"
+          className=" pb-2 text-center font-font1 text-2xl font-black text-darkPurpel
+           lg:text-right lg:text-5xl"
         >
           <span className=" text-3xl font-black lg:text-6xl">اتو آگاه</span>
           <br />
           نماد همیشه نقد خودرویی!
           <div className="mt-8">
             <Link
-              href={"/"}
-              className=" text-white text-base bg-darkblue px-14 py-2 rounded-lg z-50 mt-10 hover:shadow-lg"
+              href={'/'}
+              className=" z-50 mt-10 rounded-lg bg-darkblue px-14 py-2 text-base text-white hover:shadow-lg"
             >
               اطلاعات بیشتر
             </Link>
@@ -30,14 +30,14 @@ function Part1(props) {
 
       {/* 3 btn darkblue */}
       <div
-        className=" absolute hidden bottom-20 right-10 
-         lg:flex justify-start items-start"
+        className=" absolute bottom-20 right-10 hidden 
+         items-start justify-start lg:flex"
       >
         <div className=" flex flex-col justify-end gap-5 ">
-          <div className=" rounded-xl shadow-sm shadow-white w-56 px-4 bg-darkblue ">
-            <Link className=" group" href={"/"}>
-              <div className=" group-hover:shadow-lg flex justify-around items-center ">
-                <div className=" text-white border-l pl-4 border-white flex items-center py-1">
+          <div className=" w-56 rounded-xl bg-darkblue px-4 shadow-sm shadow-white ">
+            <Link className=" group" href={'/'}>
+              <div className=" flex items-center justify-around group-hover:shadow-lg ">
+                <div className=" flex items-center border-l border-white py-1 pl-4 text-white">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -45,7 +45,7 @@ function Part1(props) {
                     stroke-width="1.5"
                     stroke="currentColor"
                     aria-hidden="true"
-                    className="transition-all delay-75 duration-100 h-10 w-10 text-white group-hover:rotate-6"
+                    className="h-10 w-10 text-white transition-all delay-75 duration-100 group-hover:rotate-6"
                   >
                     <path
                       stroke-linecap="round"
@@ -54,16 +54,16 @@ function Part1(props) {
                     ></path>
                   </svg>
                 </div>
-                <div className=" text-white  text-base font-font1">
+                <div className=" font-font1  text-base text-white">
                   مدیریت دارایی
                 </div>
               </div>
             </Link>
           </div>
-          <div className=" rounded-xl shadow-sm shadow-white  w-56 px-4 bg-darkblue ">
-            <Link href={"/"} className="group">
-              <div className=" group-hover:shadow-lg flex justify-around items-center ">
-                <div className=" text-white border-l pl-4 border-white flex items-center py-1">
+          <div className=" w-56 rounded-xl bg-darkblue  px-4 shadow-sm shadow-white ">
+            <Link href={'/'} className="group">
+              <div className=" flex items-center justify-around group-hover:shadow-lg ">
+                <div className=" flex items-center border-l border-white py-1 pl-4 text-white">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -71,7 +71,7 @@ function Part1(props) {
                     stroke-width="1.5"
                     stroke="currentColor"
                     aria-hidden="true"
-                    className="transition-all delay-75 duration-100 h-10 w-10 text-white group-hover:rotate-6"
+                    className="h-10 w-10 text-white transition-all delay-75 duration-100 group-hover:rotate-6"
                   >
                     <path
                       stroke-linecap="round"
@@ -80,16 +80,16 @@ function Part1(props) {
                     ></path>
                   </svg>
                 </div>
-                <div className=" text-white  text-base font-font1">
+                <div className=" font-font1  text-base text-white">
                   دوره های آموزشی
                 </div>
               </div>
             </Link>
           </div>
-          <div className=" rounded-xl shadow-sm shadow-white w-56 px-4 bg-darkblue ">
-            <Link href={"/"}>
-              <div className=" hover:shadow-lg flex justify-around items-center ">
-                <div className=" text-white border-l pl-4 border-white flex items-center py-1">
+          <div className=" w-56 rounded-xl bg-darkblue px-4 shadow-sm shadow-white ">
+            <Link href={'/'}>
+              <div className=" flex items-center justify-around hover:shadow-lg ">
+                <div className=" flex items-center border-l border-white py-1 pl-4 text-white">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -97,7 +97,7 @@ function Part1(props) {
                     stroke-width="1.5"
                     stroke="currentColor"
                     aria-hidden="true"
-                    className="transition-all delay-75 duration-100 h-10 w-10 text-white group-hover:rotate-6"
+                    className="h-10 w-10 text-white transition-all delay-75 duration-100 group-hover:rotate-6"
                   >
                     <path
                       stroke-linecap="round"
@@ -106,7 +106,7 @@ function Part1(props) {
                     ></path>
                   </svg>
                 </div>
-                <div className=" text-white  text-base font-font1">
+                <div className=" font-font1  text-base text-white">
                   آگاه در یک نگاه
                 </div>
               </div>
@@ -115,7 +115,7 @@ function Part1(props) {
         </div>
       </div>
     </section>
-  );
+  )
 }
 
-export default Part1;
+export default Part1

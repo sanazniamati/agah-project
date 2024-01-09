@@ -1,22 +1,22 @@
 // component
-import Header from "./ui/header/Header";
-import Part1 from "./ui/section-one/part1";
-import Part2 from "./ui/section-two/Part2";
-import Part3 from "./ui/section-three/Part3";
-import Part4 from "./ui/section-four/part4";
-import Footer from "./ui/footer/Footer";
+import Header from './ui/header/Header'
+import Banner from './ui/banner/Banner'
+import Inventors from './ui/inventors/Inventors'
+import CustomerBlog from './ui/customerBlog/CustomerBlog'
+import Productivity from './ui/productivity/Productivity'
+import Footer from './ui/footer/Footer'
 
 export default function Home() {
   return (
     <>
       <Header />
-      <main className="mt-20 min-h-screen flex flex-col w-full">
-        <Part1 />
-        <Part2 />
-        <Part3 />
-        <Part4 />
+      <main className="mt-20 flex min-h-screen w-full flex-col">
+        <Banner />
+        <Inventors />
+        <CustomerBlog />
+        <Productivity />
       </main>
       <Footer />
     </>
-  );
+  )
 }
